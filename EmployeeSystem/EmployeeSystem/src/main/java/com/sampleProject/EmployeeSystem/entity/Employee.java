@@ -12,8 +12,15 @@ public class Employee {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private  Long employeeId;
-    private  String EmployeeName;
+
+    private  String employeeFirstName;
+    private  String employeeLastName;
+    private  String employeeAge;
+    private  String employeeContactNumber;
+    private  String employeeDOJ;
+    private  String employeeAddress;
     private  String email;
+
     private  boolean isActive;
     private  String createdBy;
     private LocalDateTime createdData;
